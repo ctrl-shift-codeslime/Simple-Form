@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {
+                display: flex;
+                justify-content: center;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 15px;
+                background-image: url('R.jpg');
+            }
+            form {
+                border: 5px solid #F1F1F1;
+            }
+            input[type="text"], [type="password"] {
+                width: 100%;
+                padding: 16px 8px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #aaa;
+                box-sizing: border-box;
+            }
+            button {
+                background-color: #4286f4;
+                color: #FFFFFF;
+                padding: 14px 0;
+                margin: 10px 0;
+                border: 0;
+                cursor: grab;
+                width: 48%;
+            }
+            h1 {
+                text-align:center;
+                font-size:18;
+            }
+            button:hover {
+                opacity: 0.8;
+            }
+            .formcontainer {
+                text-align: center;
+                margin: 24px 50px 12px;
+            }
+            .container {
+                padding: 6px 0;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1>Login Form</h1>
+            <div class="formcontainer">
+            <div class="container">
+                <label for="Email"><b>E-mail</b></label>
+                <input type="text" placeholder="Enter E-mail" name="Email" required>
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter password" name="password" required>
+            </div>
+            <button type="submit"><b>Log-in</b></button>
+            <div class="container" style="background-color: #FFFFFF;">
+            </div>
+        </form>
+    </body>
+</html>
